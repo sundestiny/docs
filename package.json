@@ -1,0 +1,16 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sundestiny/docs.git",
+  "author": "sundestiny <1249113318@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs",
+    "deploy":"bash deploy.sh"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
